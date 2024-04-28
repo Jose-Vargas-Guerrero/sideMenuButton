@@ -1,0 +1,90 @@
+/* menu animation */
+@keyframes fadeIn {
+    0% {
+      right: -400px;
+    }
+    100% {
+      right: 0px;
+    }
+  }
+  
+  .false {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.8rem;
+    animation: fadeIn 0.3s;
+    z-index: 5;
+  }
+  
+  @media only screen and (min-width: 1024px){
+    .icon{
+      display: none;
+    }
+  }
+
+  
+  @media only screen and (min-width: 772px) and (max-width: 1033px) {
+    .icon{
+      display: none;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  .true {
+    position: fixed;
+    right: -1000px;
+    background-color: #000000;
+    color: #fdfdfd;
+    width: 420px;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s ease-in;
+    z-index: 5;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .link {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .links-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .icons-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .icon{
+    margin-right: 15px;
+    color: white;
+  }
+  
+  .icon-menu{
+    position: fixed;
+    right: 2rem;
+  }
