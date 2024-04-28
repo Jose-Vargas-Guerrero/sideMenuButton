@@ -21,25 +21,7 @@
     animation: fadeIn 0.3s;
     z-index: 5;
   }
-  
-  @media only screen and (min-width: 1024px){
-    .icon{
-      display: none;
-    }
-  }
-
-  
-  @media only screen and (min-width: 772px) and (max-width: 1033px) {
-    .icon{
-      display: none;
-    }
-  }
-  
-  
-  
-  
-  
-  
+    
   .true {
     position: fixed;
     right: -1000px;
@@ -88,3 +70,18 @@
     position: fixed;
     right: 2rem;
   }
+
+  @media only screen and (min-width: 1024px){
+    .icon-menu{
+      display: none;
+    }
+  }
+
+  
+  @media only screen and (min-width: 772px) and (max-width: 1033px) {
+    .icon-menu{
+      display: none;
+    }
+  }
+  
+  
